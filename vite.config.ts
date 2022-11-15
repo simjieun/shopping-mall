@@ -9,4 +9,8 @@ export default defineConfig({
       this: "window",
     },
   },
+  server:{
+    host: 'localhost',
+    port: 3000
+  }
 })
